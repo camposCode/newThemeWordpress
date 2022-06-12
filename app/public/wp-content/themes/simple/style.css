@@ -55,6 +55,7 @@ footer{
 article.post{
     border-bottom: 1px #ccc solid;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 article.post a.button{
@@ -65,3 +66,13 @@ article.post a.button{
     display: inline-block;
 }
 
+.meta{
+    background: #333;
+    color: #cecece;
+    padding: 5px;
+}
+
+.post-thumbnail img{
+    width: 100%;
+    height: auto;
+}

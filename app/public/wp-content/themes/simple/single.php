@@ -6,26 +6,23 @@
         <?php while(have_posts()): the_post();?>
 
         <article class="post">
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> </h3>
-
-
-            <div class="meta">
-                Created by <?php the_author(); ?> on <?php the_date(); ?>
-            </div>
+            <h3><?php the_title(); ?></a> </h3>
+            Created by <?php the_author(); ?> on <?php the_date(); ?>
+            <?php the_content(); ?>
             <?php if(has_post_thumbnail()): ?>
                 <div class="post-thumbnail">
                     <?php the_post_thumbnail(); ?>
                 </div>
             <?php endif;  ?>
-
-            <?php the_excerpt(); ?>
+            
             <br>
+        </div>
 
-            <a class="button" href="<?php the_permalink(); ?>">Read More</a>
+    
         </article>
 
 
-
+        
         <?php endwhile; ?>
         <?php else: ?>
         <?php echo wpautop('Sorry, not posts were found'); ?>
