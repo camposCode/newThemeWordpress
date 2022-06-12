@@ -54,5 +54,14 @@ footer{
 /* *************ARTICLES************* */
 article.post{
     border-bottom: 1px #ccc solid;
+    overflow: hidden;
+}
+
+article.post a.button{
+    background: #333;
+    color: #cecece;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
