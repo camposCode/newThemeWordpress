@@ -16,6 +16,13 @@ body{
     line-height: 1.7em;
 }
 
+/* ***********GENERALS*********** */
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+
 header, footer{
     background: #393939;
     color: #cecece;
@@ -43,3 +50,9 @@ footer{
     padding: 10px 10px;
     text-align: center;
 }
+
+/* *************ARTICLES************* */
+article.post{
+    border-bottom: 1px #ccc solid;
+}
+
