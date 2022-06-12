@@ -16,7 +16,7 @@ body{
     line-height: 1.7em;
 }
 
-header{
+header, footer{
     background: #393939;
     color: #cecece;
     padding: 20px 10px;
@@ -26,4 +26,20 @@ header h1{
     color: #cecece;
     margin: 0;
     padding: 0;
+    padding-bottom: 10px;
+}
+
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.main{
+    margin: 15px;
+}
+
+footer{
+    padding: 10px 10px;
+    text-align: center;
 }
