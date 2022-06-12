@@ -26,5 +26,11 @@
             <?php echo wpautop('Sorry, not posts were found'); ?>
         <?php endif;  ?>
     </div>
+
+    <footer>
+        <p>&copy; <?php bloginfo('name'); ?> - <?php the_time('Y'); ?></p>
+    </footer>
+
+    <?php wp_footer(); ?>
 </body>
 </html>
